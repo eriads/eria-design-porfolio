@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="viewport" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="estilosportfolio.css">
+    </head>
+    <body>
+
+        <!--  MENU ENCABEZADO  -->
+
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="#">ERIA</a>
+                </div>
+                <nav id="nav" class="">
+                    <ul id="links"> 
+                        <li> <a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a> </li> 
+                        <li> <a href="#sobremi" onclick="seleccionar(this)">SOBRE MÍ</a> </li> 
+                        <li> <a href="#skills" onclick="seleccionar(this)">SKILLS</a> </li>
+                        <li> <a href="#curriculum" onclick="seleccionar(this)">CURRICULUM</a> </li>
+                        <li> <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a> </li>
+<!--            <li> <a href="#contacto">CONTACTO</a> </li>-->
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </header>
+        </div>
+        
+         <!--   SECCION INICIO   -->
+        
+        <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img>">
+            <img src="platanito.jpg" alt="">
+                </div>
+            <h1> ELIA LLORENTE</h1>
+            <h2> Product Designer</h2>
+            <div class="redes">
+                <a herf="#"> <i class="fa-brands fa-instagram"></i> </a>
+                <a herf="#"> <i class="fa-regular fa-envelope"></i></a>
+                <a herf="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                
+            </div>
+            </div>
+        </section>
+        
+        <!--   SECCION SOBRE MI   -->
+        <section id="sobremi" class="sobremi">
+        <div class= "contenido-seccion">
+             <h2> Sobre Mí</h2>
+            <p><span> Hola, Soy Elia Llorente</span> Diseñadora de producto junior con un gran interés en aprender nuevas skills, realizar proyectos con los que se cambien la vida de las personas, tanto de forma obvia como invisible y generar soluciones innovadoras para los problemas cotidianos.     
+            Tengo un gran interés en materiales biodegradables y en el reciclaje de residuos.</p>
+             
+            <div class="fila">
+            <!--   datos personales  -->
+                <div class= "col">
+                    <h3> Datos personales</h3>
+                    <ul>
+                        <li>
+                        <strong> Nacimiento </strong>
+                            19-08-2001
+                        </li>
+                         <li>
+                        <strong> Teléfono </strong>
+                            648 765 070
+                        </li>
+                         <li>
+                        <strong> Email </strong>
+                            <span>eliallorente01@gmail.com</span>
+                        </li>
+                         <li>
+                        <strong> Lugar de residencia </strong>
+                            Madrid, Madrid
+                        </li>
+                    
+                    </ul>
+                </div>
+            
+            <!--   intereses  -->
+                 <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-hammer"></i>
+                            <span> Prototipado</span>
+                        </div>
+                        
+                         <div class="interes">
+                            <i class="fa-sharp fa-solid fa-palette"></i>
+                            <span> Arte</span>
+                        </div>
+                        
+                         <div class="interes">
+                            <i class="fa-solid fa-cube"></i>
+                            <span> Modelado 3D</span>
+                        </div>
+                               
+                    </div>
+                </div>
+            </div>
+                <button>
+                     
+                    
+                    <span class="overlay"></span>
+                        <a href="download/Portfolio 26-4.pdf" download="Portfolio 26-4.pdf"> Descargar CV <i class="fa-solid fa-download">
+                    </i></a>
+            </button>
+          </div>
+        </section>
+        
+         <!--   SECCION SKILLS   -->
+        <section class= "skills" id="skills">
+        <div class="contenido-seccion">
+            <h2> Skills</h2>
+                <div class="fila">
+             <!--   skills técnicas  -->
+                  
+                    <h3> Skills Técnicas</h3>
+                        
+                    <div class="skill">
+                        <div class="info">
+                        <p> <span class="lista"> </span> Rhinoceros 7 </p>
+                            <span class="porcentaje"> 90% </span>
+                        </div>
+                        <div class="" id="r7"> </div>
+                        </div>
+                    
+                           <div class="skill">
+                        <div class="info">
+                        <p> <span class="lista"> </span> Keyshot 10 </p>
+                            <span class="porcentaje"> 70% </span>
+                        </div>
+                        <div class="" id="k10"> </div>
+                        </div>
+            
+                        <div class="skill">
+                        <div class="info">
+                        <p> <span class="lista"> </span> SolidWorks 2022 </p>
+                            <span class="porcentaje"> 60% </span>
+                        </div>
+                        <div class="" id="s22"> </div>
+                        </div>
+                        
+                           <div class="skill">
+                        <div class="info">
+                        <p> <span class="lista"> </span> Paquete Adobe (Ilustrator y Photoshop) </p>
+                            <span class="porcentaje"> 70% </span>
+                        </div>
+                        <div class="" id="pa"> </div>
+                        </div>
+            
+
+              
+                    
+                </div>
+            </div>
+           
+        
+        
+        
+        </section>
+        
+        <!--   SECCION CURRICULUM   -->
+        <section class="curriculum" id="curriculum">
+            <div class="contenido-seccion">
+                <h2> Curriculum </h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4> Grado Universitario en Diseño de Producto</h4>
+                            <span class="casa"> ESNE Escuela de Diseño, Innovación y Tecnología. Madrid, España.</span>
+                            <span class="fecha"> 2019-2023</span>
+                            <p> </p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>            
+                    </div>
+                <div class="col derecha">
+                    <h3>Información adicional de interés</h3>
+                        <div class="item der">
+                            <h4> Disponibilidad</h4>
+                            <span class="casa"> </span>
+                            <span class="fecha"> </span>
+                            <p> Viernes jornada completa. Mañanas de Lunes a Jueves hasta las 13:00.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4> Capacidad de desplazamiento</h4>
+                            <span class="casa"> </span>
+                            <span class="fecha"> </span>
+                            <p> Carnet de conducir y coche disponible</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+              
+                    </div>    
+             
+                </div>   
+                
+            </div>
+        </section>
+        
+         <!--   SECCION PORTFOLIO   -->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2> PORTFOLIO </h2>
+                <div class="galeria">
+                    
+                    <div class= "proyecto">
+                           <img src="silla.jpg" alt="">
+                        <div class="overlay">
+                            <h3> Nara </h3>
+                            <p> Silla infantil para bicicleta</p>
+                        </div>
+                    </div>
+                     
+                      <div class= "proyecto">
+                           <img src="colgante.jpg" alt="">
+                        <div class="overlay">
+                            <h3> Clave </h3>
+                            <p> Colgante inteligente con musicoterapia para personas con alzheimer</p>
+                        </div>
+                    </div>
+                    
+                      <div class= "proyecto">
+                           <img src="seta.jpg" alt="">
+                        <div class="overlay">
+                            <h3> Amanita </h3>
+                            <p> Luminaria de techo de papel de algodón inspirada en las lamelas de las setas</p>
+                        </div>
+                    </div>
+                    
+                      <div class= "proyecto">
+                           <img src="maceta.jpg" alt="">
+                        <div class="overlay">
+                            <h3> V-Waves </h3>
+                            <p> Maceta modular para crear un jardín vertical con la unión de varias</p>
+                        </div>
+                    </div>
+                      <div class= "proyecto">
+                           <img src="silla.jpg" alt="">
+                        <div class="overlay">
+                            <h3> Nara </h3>
+                            <p> Silla infantil para bicicleta</p>
+                        </div>
+                    </div>
+                     
+                      <div class= "proyecto">
+                           <img src="colgante.jpg" alt="">
+                        <div class="overlay">
+                            <h3> Clave </h3>
+                            <p> Colgante inteligente con musicoterapia para personas con alzheimer</p>
+                        </div>
+                    </div>
+                    
+                      <div class= "proyecto">
+                           <img src="seta.jpg" alt="">
+                        <div class="overlay">
+                            <h3> Amanita </h3>
+                            <p> Luminaria de techo de papel de algodón inspirada en las lamelas de las setas</p>
+                        </div>
+                    </div>
+                    
+                      <div class= "proyecto">
+                           <img src="maceta.jpg" alt="">
+                        <div class="overlay">
+                            <h3> V-Waves </h3>
+                            <p> Maceta modular para crear un jardín vertical con la unión de varias</p>
+                        </div>
+                    </div>
+                     <div class= "proyecto">
+                           <img src="maceta.jpg" alt="">
+                        <div class="overlay">
+                            <h3> V-Waves </h3>
+                            <p> Maceta modular para crear un jardín vertical con la unión de varias</p>
+                        </div>
+                    </div>
+                    
+                         </div>
+            </div>
+        
+        
+        
+        
+        
+        </section>
+        
+        <!--   SECCION CONTACTO   -->
+<!--
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2> CONTACTO</h2>
+                <div class="fila">
+-->
+                <!--  formulario  -->
+<!--
+                    <div class="col">
+                    
+                    </div>
+                </div>
+                   Mapa  
+            
+            </div>
+        
+        
+        
+        
+        </section>
+-->
+        <!--   footer  -->
+        <footer> 
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+             <div class="redes">
+                <a herf="#"> <i class="fa-brands fa-instagram"></i> </a>
+                <a herf="#"> <i class="fa-regular fa-envelope"></i></a>
+                <a herf="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                
+            </div>
+            
+        </footer>
+        
+        <script scr="portfolio.js"> </script>
+    </body>
+</html>
